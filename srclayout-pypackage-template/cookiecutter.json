@@ -1,6 +1,7 @@
 {
-    "project_name": "project-name",
-    "description": "Project description",
+    "project_name": "srclayout-pypackage",
+    "package_name": "{{cookiecutter.project_name.lower().replace('-', '_').replace(' ', '_')}}",
+    "description": "Cookiecutter template for src-layout Python projects",
     "version": "0.0.1",
     "license": [
         "None",
@@ -15,6 +16,5 @@
         "3.10", 
         "3.11", 
         "3.12"
-    ],
-    "package_name": "{{cookiecutter.project_name.lower().replace('-', '_').replace(' ', '_')}}"
+    ]
 }
