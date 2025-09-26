@@ -1,0 +1,20 @@
+{
+    "project_name": "project-name",
+    "description": "Project description",
+    "version": "0.0.1",
+    "license": [
+        "None",
+        "MIT", 
+        "BSD-3", 
+        "GNU GPL v3.0", 
+        "Apache Software License 2.0"
+    ],
+    "python_version": [
+        "3.8", 
+        "3.9", 
+        "3.10", 
+        "3.11", 
+        "3.12"
+    ],
+    "package_name": "{{cookiecutter.project_name.lower().replace('-', '_').replace(' ', '_')}}"
+}
