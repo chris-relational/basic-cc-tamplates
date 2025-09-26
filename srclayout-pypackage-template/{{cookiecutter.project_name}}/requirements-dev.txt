@@ -1,0 +1,8 @@
+# This is a baseline for local development and testing.
+# You may also use your own local requirements file to add your tool dependencies.
+--editable .
+
+pytest
+black
+jupyterlab
+jupyter-console
